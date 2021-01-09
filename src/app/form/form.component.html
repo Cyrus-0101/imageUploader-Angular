@@ -1,0 +1,16 @@
+<p>
+	Use this form to register a new user.<br>
+	The image will be placed on the server in a folder called &ldquo;images&rdquo;.<br>
+	The database will store the filename of the image so it can be referenced whenever needed.<br>
+	<strong>Note</strong> this works best when the images have an aspect ratio of 1:1 (square).
+</p>
+
+
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+	
+	<div *ngIf="msg"><h3>{{ msg }}<span (click)="closeMessage()">&times;</span></h3></div>
+	
+    <input type="text" placeholder="Username" formControlName="name">
+    <input type="file" name="profile" (change)="onFileSelect($event)">
+    <input type="submit" value="Submit">
+</form>

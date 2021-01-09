@@ -1,0 +1,12 @@
+<div *ngIf="!profiles.length">
+    <h2>There are currently no user profiles.</h2>
+</div>
+
+<div class="profile-container">
+	<div class="profile" *ngFor="let profile of profiles">
+		<h5>{{ profile.name }}</h5>
+		<figure>
+			<img src="{{ this.http.url }}/images/{{ profile.image }}">
+		</figure>
+	</div>
+</div>

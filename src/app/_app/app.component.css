@@ -1,0 +1,22 @@
+nav { margin-bottom: 30px; }
+
+h1 {
+	font-weight: 900;
+	font-size: 58px;
+	margin-bottom: 0;
+}
+
+ul {
+	padding: 0;
+	margin-top: 4px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 22px;
+}
+
+a { color: var(--color); }
+
+

@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+:root { --color: #F23F19; }
+body, button, input, textarea { font-family: brandon-grotesque, sans-serif; }
+
+body {
+	margin: 100px;
+	color: var(--color);
+}
+
+
+
+
+

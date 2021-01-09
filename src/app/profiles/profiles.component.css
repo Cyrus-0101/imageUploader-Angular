@@ -1,0 +1,33 @@
+.profile-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+
+.profile-container::after {
+	content: "";
+	width: 30%;
+}
+
+.profile {
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+	margin-bottom: 40px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 21px;
+	font-weight: 300;
+	margin: 16px 0 8px;
+}
+
+figure {
+	overflow: hidden;
+}
+
+img {
+	object-fit: contain;
+	max-width: 100%;
+}

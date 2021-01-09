@@ -1,0 +1,64 @@
+h3 {
+	font-size: 17px;
+	margin: 0;
+	margin-bottom: 24px;
+	padding: 6px;
+	padding-left: 10px;
+	background-color: var(--color);
+	color: white;
+	opacity: .9;
+	font-weight: 400;
+}
+
+span {
+	padding: 0 10px;
+	box-sizing: content-box;
+	float: right;
+	color: white;
+	transform: scale(1.8);
+	cursor: default;
+	font-size: 20px;
+	transform-origin: center;
+	transition: transform .5s;
+}
+
+span:hover {
+	transform: rotate(90deg) scale(1.8);
+}
+
+p {
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 106%;
+	margin: 0;
+}
+
+form {
+	margin-top: 50px;
+}
+
+input {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 6px;
+}
+
+input:last-of-type {
+	color: pink;
+	margin-top: 30px;
+	border-radius: 10000px;
+	outline: none;
+	border: none;
+	padding: .8em 1.5em;
+	background-color: var(--color);
+	color: white;
+	transition: all .4s;
+	transform-origin: top left;
+}
+
+input:last-of-type:hover {
+	background-color: #F4ECEB;
+	transform: scale(1.14);
+	color: var(--color);
+	padding-right: 100px;
+}
